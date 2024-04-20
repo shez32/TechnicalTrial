@@ -1,0 +1,14 @@
+MainWindow
+  id: gameWindow
+  size: 250 250
+  color: #1E5945
+
+  Button
+    id: actionButton
+    anchors.top: parent.top
+    anchors.right: parent.right
+    !text: tr('Jump!')
+    width: 50
+    height: 25
+    color: #CCFF00
+    @onClick: modules.game_movingbutton.MovingButtonModule.resetGame()

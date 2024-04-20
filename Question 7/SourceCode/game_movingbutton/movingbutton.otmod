@@ -1,0 +1,11 @@
+Module
+  name: game_movingbutton
+  description: Creates a UI Menu with a Moving Button 
+  author: Shez32
+  website: 
+  sandboxed: true
+  autoload: true
+  autoload-priority: 1000
+  scripts: [ movingbutton ]
+  @onLoad: init()
+  @onUnload: terminate()
